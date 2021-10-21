@@ -4,7 +4,6 @@ public class App {
         System.out.println("si o si me ejecuto");
         Ventana v = new Ventana("Colombia");
         v.setVisible(true);
-        v.iniciarEtiquetas();
         if(args.length > 0){
             v.setTextos(args);
         }
